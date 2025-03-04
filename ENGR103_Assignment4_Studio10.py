@@ -118,7 +118,7 @@ print("Height of water: ", current_height, " meters")
 
 
 # MATPLOTLIB 
-#create lists to hold time and activity data during activation
+# create lists to hold time and activity data during activation
 # height, radius, and time are defined above
 height = current_height
 radius = tank_radius
@@ -148,7 +148,6 @@ print("We lost",round(volume_lost*1000,4),"liters during the last second")
 print("the time is:", round(time,2),"seconds")
 
 # plotting section
-# feel free to play around with it
 plt.plot(total_time, total_height)
 plt.xlabel('Time(seconds)')
 plt.ylabel('Height (m)')
